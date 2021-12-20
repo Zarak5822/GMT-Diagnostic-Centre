@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #mydiv{
+    width: 100px;
+    height: 100px;
+    background: #000;
+    color: #fff;
+    text-align: center;
+}
+    </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script>
+        setInterval(function(){
+            var current = new Date();
+        var expiry = new Date('2021-12-14T16:30:00.000+05:00')
+        var expiry2 = new Date('2021-12-15T09:53:00.000+05:00')
+        if (current.getTime() > expiry2.getTime()) {
+            $('#mydiv').hide();
+            $('#mydiv1').show();
+           
+        }
+        
+    }, 3000);
+        </script>
+    
+
+
+</head>
+<body>
+    <div id="mydiv">myDiv</div>
+    <br>
+    <div id="mydiv1">myDiv</div>
+</body>
+</html>

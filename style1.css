@@ -1,0 +1,83 @@
+.triangle {
+    width: 0;
+    height: 0;
+    position: relative;
+    border-bottom:495px solid #dc546163;
+    border-right: 311px solid transparent;
+    top: 0;
+    left: 0;
+ 
+}
+h1.million {
+    color: red;
+    font-weight: bold;
+    font-size: 43px;
+}
+h1.million1 {
+    color: red;
+    font-weight: bold;
+    
+}
+h5.satisfied-patient {
+    color: white;
+    margin-bottom: 1.3em;
+    margin-top: 12px;
+
+}
+.backgroud {
+    background-color: #ffc107de;
+}
+h1.heading-one {
+    font-weight: bold;
+    color: white;
+    font-size: 47px;
+    font-family: inherit;
+}
+.learnmore-btn {
+    border-radius: 2em;
+    padding-left: 1.6em;
+    padding-right: 1.6em;
+    padding-top: 0.8em;
+    margin-top: 2em;
+}
+h3.find-us-head {
+    color: red;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+i.fa.fa-phone {
+    color: red;
+    font-size: 37px;
+}
+.footer {
+    background-color: black;
+    width: 100%;
+    padding-bottom: 4em;
+}
+
+h2.quick-link {
+    padding-top: 2em;
+    color: white;
+}
+h2.service {
+    padding-top: 2em;
+    color: white;
+}
+ul.order-list {
+    list-style: none;
+    color: #bbb9b9;
+    font-size: 18px;
+    LINE-HEIGHT: 2;
+    margin-left: -29px;
+}
+.find-us {
+    background-color: #e8edeb;
+    padding: 3em;
+    border-radius: 1em;
+    z-index: 1;
+    position: absolute;
+}
+.find-us-para {
+    text-align: justify;
+    font-weight: bold;
+}
